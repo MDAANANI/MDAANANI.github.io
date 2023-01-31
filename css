@@ -1,0 +1,70 @@
+.menu a {
+    display:block;             
+    min-width: 120px;            
+    
+    margin: 0.5rem;               
+    padding: 0.4rem 0;            
+    text-align: center;          
+    background-color: #1ABC9C;   
+    color: #fff;                  
+    text-decoration: none;        
+    border: 1px solid #fff;      
+    border-radius: 4px;          
+}
+/* 
+    Created on : 29 nov. 2022, 08:53:42
+    Author     : MOHAMED.DAANANI
+*/
+
+
+body {
+ background-image: url("tourisme1.jpg");
+ background-color: #cccccc;
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li {
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+h2{
+    color:white;
+    color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+   
+}
+p {
+     color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue
+      ;
+}
